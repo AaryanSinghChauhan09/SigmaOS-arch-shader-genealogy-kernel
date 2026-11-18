@@ -1,10 +1,13 @@
 [package]
-name = "arch-shader-genealogy-kernel"
+name = "sigmaos-arch-shader-genealogy-kernel"
 version = "0.1.0"
 edition = "2021"
-description = "SigmaOS SigmaOS-arch-shader-genealogy-kernel component - Inspired by Arch Linux and Debian"
+description = "Genealogy shader kernel for SigmaOS"
 license = "MIT"
 repository = "https://github.com/AaryanSinghChauhan09/SigmaOS-arch-shader-genealogy-kernel"
 
 [dependencies]
-thiserror = "2"
+
+[lib]
+name = "sigmaos_arch_shader_genealogy_kernel"
+path = "src/lib.rs"
